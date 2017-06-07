@@ -7,12 +7,13 @@
            "48": "icon48.png",
           "128": "icon128.png" },
   "background": {
-    "page": "background.html"
+    "script": "js/background.js"
   },
   "omnibox": {"keyword": "b"},
   "permissions": [
     "bookmarks",
     "tabs",
     "<all_urls>"
-  ]
+  ],
+  "minimum_chrome_version": "38" // Map support
 }
